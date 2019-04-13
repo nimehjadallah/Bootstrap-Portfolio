@@ -1,97 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 d-inline-block bg-info font-weight-bold text-white"><h1>Nimeh Jadallah</h1></span>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            
-          </ul>
-        
-      </nav>
-
-          <br> <br> <br>
-          <div class="container">
-          <div class="row">
-            <div class="column text-info">
-              <p><h2 class="ml-3 font-weight-bold">Portfolio</h2></p>
-            </div>
-          </div>
-
-          <hr class="p-2">
-          <div class="row">
-              <div class="col-md-2">
-                  <img src="images/main_crystal.jpg" class="card-img h-75 " alt="...">
-                  <div class="card-img-overlay">
-                    <a class = "nav-link" href= "https://nimehjadallah.github.io/unit-4-game/">  <p class="card-text text-center text-white bg-info">Crystal Collector</p> </a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <img src="images/gifs.jpg" class="card-img h-75" alt="...">
-                    <div class="card-img-overlay">
-                       <a class= "nav-link" href= "https://nimehjadallah.github.io/gifTastic/"><p class="card-text text-center text-white bg-info">GifTastic</p></a> 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                    <div class="col-md-2">
-                        <img src="images/btnBackground.jpg" class="card-img h-75" alt="...">
-                        <div class="card-img-overlay">
-                            <a class = "nav-link" href= "https://nimehjadallah.github.io/TriviaGame/">  <p class="card-text text-center text-white bg-info">Food Trivia Game</p> </a>
-                          </div>
-                      </div>
-                      <div class="col-md-2">
-                          <img src="images/train.jpg" class="card-img h-75" alt="...">
-                          <div class="card-img-overlay">
-                              <a class = "nav-link" href= "https://nimehjadallah.github.io/TrainScheduler/">  <p class="card-text text-center text-white bg-info">Train Scheduler</p> </a>
-                          </div>
-                      </div>
-                  </div>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="content">
+          <header>
+              <section class="container-fluid">
                   <div class="row">
-                        <div class="col-md-2">
-                            <img src="images/img5.jpg" class="card-img h-75" alt="...">
-                            <div class="card-img-overlay mt-5">
-                                <p class="card-text text-center text-white bg-info">Rock Paper Scissors</p>
+                      <div class="col-md-1 col-sm-auto"></div>
+                      <div class="col-md-4 col-sm-12" id="myName">
+                          Nimeh Jadallah
+                      </div>
+                      <div class="col-md-1 col-sm-auto"></div>
+                      <nav class="col-md-6 col-sm-12">
+                          <div class="container">
+                              <div class="row">
+                                  <div id="aboutButton" class="navButton col">
+                                      <a href="index.html">About</a>
+                                  </div>
+                                  <div id="portButton" class="navButton col">
+                                      <a href="portfolio.html">Portfolio</a>
+                                  </div>
+                                  <div id="contactButton" class="navButton col">
+                                      <a href="contact.html">Contact</a>
+                                  </div>
                               </div>
                           </div>
-                        </div>
+                      </nav>
+                  </div>
+              </section>
+          </header>
+          <div class="container" id="bodyContent">
+              <div class="col-md-8 col-xs-12">
+                  <section id="mainContent">
+                      <h1>Portfolio</h1>
+                      <div class="picSection row">
+                          <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                              <img src="images/main_crystal.jpg" alt="Crystal Collector">
+                              <a class = "nav-link" href= "https://nimehjadallah.github.io/unit-4-game/"><span class="label">Crystal Collector</span></a>
+                              
+                          </div>
+                          <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                              <img src="images/gifs.jpg" alt="Gifs">
+                              <a class = "nav-link" href= "https://nimehjadallah.github.io/gifTastic/"><span class="label">Giftastic</span></a>
+
+                          </div>
                       </div>
-        </div>
-    </div>
-      
+                      <div class="picSection row">
+                          <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                              <img src="images/btnBackground.jpg" alt="Food Trivia">
+                              <a class = "nav-link" href= "https://nimehjadallah.github.io/TriviaGame/"><span class="label">Food Trivia</span></a>
+                              
+                          </div>
+                          <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                              <img src="images/train.jpg" alt="Train Scheduler">
+                              <a class = "nav-link" href= "https://nimehjadallah.github.io/TrainScheduler/"><span class="label">Train Scheduler</span></a>
+                          </div>
+                      </div>
+                      <div class="picSection row">
+                          <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                              <img src="images/sunriseflowers.jpg" alt="First-Project">
+                              <a class = "nav-link" href= "https://nimehjadallah.github.io/First-Project/"><span class="label">First Project</span></a>
+                              
+                          </div>
+                        </div>
+                      
+                  </section>
+              </div>
+              <section class="col-md-4 col-xs-12" id="sideBar">
+                  <div class="row">
+                      <h2 class="col-12">Connect With Me</h2>
+                  </div>
+                  <div class="row">
+                      <a href="https://github.com/nimehjadallah" class="socialIcon col-4">
+                          <div id="gitHubIconRed"></div>
+                          <div id="gitHubIconBlack"></div>
+                      </a>
+                      <a id="middleIcon" href="https://www.linkedin.com/in/nimeh-jadallah-b1601a177/"  class="socialIcon col-4">
+                          <div id="linkedinIconRed"></div>
+                          <div id="linkedinIconBlack"></div>
+                      </a>
+                      
+                  </div>
+              </section>
+          </div>
+          <br /><br /><br /><br />
+
+    <footer class="text-muted text-center footer-position">
+      <p style="color:antiquewhite">
+        &copy; 2019 Nimeh Jadallah
+      </p>
+    </footer>
+          
+  </body>
+  </html>
 
 
-  </div>
-<br><br><br><br>
-  
-<footer class="text-muted text-center footer-position">
-    <p style="color:antiquewhite">
-    &copy; 2019 Nimeh Jadallah </p>
-</footer>
-  
-  
-   
-  
 
-    
-        
-     
-   
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+  

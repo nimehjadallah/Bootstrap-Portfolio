@@ -9,63 +9,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 d-inline-block bg-info text-white"><h1>Nimeh Jadallah</h1></span>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            
-          </ul>
-        
-      </nav>
-
-          <br> <br> <br>
-          <div class="container">
-          <div class="row">
-            <div class="column text-info">
-              <p><h2 class= "font-weight-bold" >About Me</h2></p>
-            </div>
-          </div>
-
-          <hr class="p-2">
-          <div class="row">
-              <div class="media m-4 ">
-                  <img src="images/mypicture.png" class="mr-3" alt="...">
-                  <div class="media-body">
-      
-                      Welcome to my home page! My name is Nimeh Jadallah, and I go by Grace because simply nobody can say my name correctly. Nimeh is an arabic name that means Grace. I am orginally from Bethlehem, Palestine and is been in the states for almost 6 years. I am married and I have a beautiful daughter that is almost two.
-
-                      I love to listen to music and my favorite singer is Saber AL-Roubai.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse provident doloribus neque deleniti at optio velit qui sapiente corporis, dolor nam blanditiis, a id quae eligendi earum, ipsa nulla tempora?
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, vitae, sunt ex deleniti corrupti a vel exercitationem iste veritatis doloribus illum nostrum placeat architecto accusamus dicta sed voluptate enim incidunt.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </div>
+    <div id="content">
+        <header>
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <div class="col-md-4 col-sm-12" id="myName">
+                        Nimeh Jadallah
+                    </div>
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <nav class="col-md-6 col-sm-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="navButton col" id="aboutButton">
+                                    <a href="index.html">About</a>
+                                </div>
+                                <div class="navButton col" id="portButton">
+                                    <a href="portfolio.html">Portfolio</a>
+                                </div>
+                                <div class="navButton col" id="contactButton">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-          </div>
+            </section>
+        </header>
+        <div class="container" id="bodyContent">
+            <div class="col-md-8 col-xs-12">
+                <section id="mainContent">
+                    <h1>About Me</h1>
+                    <img class="img-fluid" id="profilePic" src="images/mypicture.png" alt="My profile picture">
+                    <p>
+                        Welcome to my basic portfolio page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni suscipit delectus aliquam nemo nulla dolorem, exercitationem autem blanditiis veniam minima? Iure officia quae hic nostrum nam voluptatibus doloremque praesentium?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod officia quo nemo ab qui ducimus magni ratione amet recusandae cum, facilis voluptates quasi voluptatum nobis, necessitatibus animi voluptatem molestias.
 
-          <div class="row">
-            <div class="column m-4">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed aliquam quis pariatur ratione, omnis repellat quidem voluptas excepturi quod, culpa qui blanditiis officiis odit corporis deserunt vitae! Sapiente, sint alias! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad expedita sapiente aperiam eaque itaque in, distinctio unde omnis a fugit rerum animi temporibus error ipsa adipisci culpa dolorum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit voluptas ex. Minus, quod. Neque aliquid beatae sapiente repudiandae harum iusto velit quam, eum voluptatibus maiores illum, deserunt sunt placeat!</p>
-
+                    </p>
+                </section>
             </div>
-          </div>
-      
-
-
-  </div>
-<br><br><br><br>
+            <section class="col-md-4 col-xs-12" id="sideBar">
+                <div class="row">
+                    <h2 class="col-12">Connect With Me</h2>
+                </div>
+                <div class="row">
+                    <a href="https://github.com/nimehjadallah" class="socialIcon col-4">
+                        <div id="gitHubIconRed"></div>
+                        <div id="gitHubIconBlack"></div>
+                    </a>
+                    <a id="middleIcon" href="https://www.linkedin.com/in/nimeh-jadallah-b1601a177/"  class="socialIcon col-4">
+                        <div id="linkedinIconRed"></div>
+                        <div id="linkedinIconBlack"></div>
+                    </a>
+                    
+                </div>
+            </section>
+        </div>
+        <br><br><br><br>
   
-<footer class="text-muted text-center footer-position">
-    <p style="color:antiquewhite">
-    &copy; 2019 Nimeh Jadallah </p>
-</footer>
+        <footer class="text-muted text-center footer-position">
+            <p style="color:antiquewhite">
+            &copy; 2019 Nimeh Jadallah </p>
+        </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
   
   
 
@@ -73,8 +91,3 @@
   
 
     
-        
-     
-   
-</body>
-</html>
